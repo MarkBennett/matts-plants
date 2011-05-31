@@ -7,6 +7,10 @@ gem 'rails', '3.0.7'
 
 gem 'sqlite3'
 
+group :development do
+  gem 'heroku'
+end
+
 group :test do
   gem 'guard'
 end
