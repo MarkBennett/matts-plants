@@ -67,5 +67,39 @@
 		For Matt
 	</div>
 </div>
+
+<div data-role="page" id="new-plant">
+	<div data-role="header">
+		<h1>New Plant</h1>
+	</div>
+	<div data-role="content">
+		<form>
+			<div data-role="fieldcontain">
+				<label for="plant_image">Image</label>
+				<input type="file" id="plant_image" >
+			</div>
+			<div data-role="fieldcontain">
+				<label for="plant_type">Type</label>
+				<select name="plant[type]" id="plant_type">
+					<option value="">Phalaenopsis</option>
+					<option value="rush">Paphiopedilum</option>
+					<option value="express">Vanda</option>
+					<option value="overnight">Oncidium</option>
+					<option value="overnight">Dendrobium</option>
+					<option value="overnight">Cymbidium</option>
+					<option value="overnight">Cattleya</option>
+				</select>
+			</div>
+			<div data-role="fieldcontain">
+				<label for="plant_desc">Description</label>
+				<textarea id="plant_desc"></textarea>
+			</div>
+			<fieldset>
+				<input type="submit" data-theme="a" value="Create">
+			</fieldset>
+		</form>
+	</div>
+</div>
+
 </body>
 </html>
