@@ -1,0 +1,2 @@
+.fullpic { width: 100%; }
+.min-width-768px .fullpic { float: left; width: 200px; margin: 0 10px 0 0; }
