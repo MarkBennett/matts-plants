@@ -76,11 +76,11 @@
 		<form>
 			<div data-role="fieldcontain">
 				<label for="plant_image">Image</label>
-				<input type="file" id="plant_image" >
+				<input type="file" id="plant_image">
 			</div>
 			<div data-role="fieldcontain">
-				<label for="plant_type">Type</label>
-				<select name="plant[type]" id="plant_type">
+				<label for="plant_genus">Genus</label>
+				<select name="plant[genus]" id="plant_genus">
 					<option value="">Phalaenopsis</option>
 					<option value="rush">Paphiopedilum</option>
 					<option value="express">Vanda</option>
@@ -91,8 +91,16 @@
 				</select>
 			</div>
 			<div data-role="fieldcontain">
+				<label for="plant_species">Species</label>
+				<input type="text" id="plant_species">
+			</div>
+			<div data-role="fieldcontain">
 				<label for="plant_desc">Description</label>
 				<textarea id="plant_desc"></textarea>
+			</div>
+			<div data-role="fieldcontain">
+				<label for="plant_origin">Origin</label>
+				<input type="text" id="plant_origin">
 			</div>
 			<fieldset>
 				<input type="submit" data-theme="a" value="Create">
